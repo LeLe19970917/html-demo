@@ -1,0 +1,60 @@
+.head{
+    background-color: #003344;color: white;font-weight:bold;font-size:30px;
+    text-align: center;padding: 10px;
+    
+  }
+  .content{
+    width: 1000px;margin-left: auto;margin-right: auto;
+    
+  }
+  .box{
+    width: 280px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-style:solid;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 30px;
+  }
+  .title{
+    float: none;
+      width: px;height: 60px;
+     font-weight: bold;text-align:right
+    
+  }
+  .a1{
+    
+    padding: 16px;margin: -11px;
+    background-color: rgb(255, 168, 168);
+    border-style:solid;;
+    border-color:black;
+  }
+  .a2{
+    background-color: red;
+    padding: 16px;margin: -11px;
+    border-style:solid ;
+    border-color:black;
+    
+  }
+  .a3{
+    background-color: rgb(255, 246, 126);
+    ;
+    padding: 16px;margin: -11px;
+    border-style:solid ;
+    border-color:black;
+  }
+  @media screen and (min-width:992px){   
+    .head{font-size: 24px;}
+    .content{width: 100%;text-align: center;}
+  }
+  
+  @media screen and (min-width:768px) and (max-width:991px){
+    .head{font-size: 24px;}
+    .content{width: 100%;text-align: center;}
+  }
+  @media screen and (max-width:767px){
+    .head{font-size: 24px;}
+    .content{width: 100%;text-align: center;}
+  }
