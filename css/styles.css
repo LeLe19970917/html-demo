@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffaac9;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+  background-color: #ffecbf;
+  border-radius: 0;
+  border: 0;
+  padding-top: 40px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #fff;
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  line-height: .5;
+  
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #7effe3;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  #phone {
+    margin-top: 5px;
+  }
+  #phone a {
+    text-align: right;
+    padding-bottom: 0;
+  }
+  #phone div {
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+  }
+  #content { 
+    font-size: 120%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+div#container1 {
+  background-color: #5fff72;
+  position: relative;
+  top: 5%;
+}
+div#container2 {
+  background-color: #58f9ff;
+  position: relative;
+  top: 5%;
+}
+div#container3 {
+  background-color: #fd5092;
+  position: relative;
+  top: 5%;
+}
+#text1{
+  position: relative;
+  top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+#text2{
+  position: relative;
+  top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+#text3{
+  position: relative;
+  top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
